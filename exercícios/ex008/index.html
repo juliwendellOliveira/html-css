@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Wells.ico" type="image/x-icon">
+    <title>Formatação de testos</title>
+    
+    <style>
+        mark{
+            background-color: lime;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase tem  <b>um termo em negrito</b> com a tag &lt;b&gt; (não semântico)</p>
+    <p>Nesta frase tem um <strong>termo em Destaque</strong> utilizando a tag &lt; strong &gt; (não semântico)</p>
+    <h2>Itálico / Enfase</h2>
+    <p>Nesta frase temos <i>um termo em itálico</i> utilizando a tag &lt;i&gt; (não semântico)</p>
+    <p>Nesta frase temos um <em>termo em ênfase</em> utilizando a tag &lt;em&gt;(semântico)</p>
+    <h2>Texto Marcado</h2>
+    <p>Podemos criar um <mark >testo marcado</mark> com a tag &lt;mark&gt;</p>
+    <p>Podemos criar um <mark >testo marcado</mark> com a tag &lt;mark&gt;</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small></p>
+    <h2>Texto deletado</h2>
+    <p>Podemos Marcar u, <del>texto como Excluído</del> para indicar que ele deve ser lido, mas não considerado, &lt;del&gt;</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como iserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Podemos marcar um <u>Texto sublinhado</u> com a tag &lt;u&gt;(não semântico)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    <h1>Outras formatações</h1>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em JavaScript</p>
+    <pre>
+        <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+    print(f'O número {num} é PAR')
+else
+    print(f'O número é IMPAR)
+print('Fim do programa')
+        </code>
+    </pre>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Sun Tzu No livro a arte da guerra:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Livro_A_Arte_da_Guerra_de_Sun_Tzu_Resumo/k0lTEQAAQBAJ?hl=pt-BR&gbpv=0&kptab=overview">
+        Ser invencível depende da propia pessoa, derrtar o inimigo depende dos erros do inimigo.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando<abbr title="HyperText Markup Leanguage"> HTML</abbr> e <abbr title="Cascading style sheet">CSS</abbr> estou adorando!</p>
+    <h2>Testo inverdido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em Html.</bdo></p>
+</body>
+</html>
